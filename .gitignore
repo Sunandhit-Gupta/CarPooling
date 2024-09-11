@@ -1,0 +1,23 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/frontend/carpool/node_modules
+/frontend/carpool/.pnp
+/frontend/carpool.pnp.js
+
+# testing
+/frontend/carpool/coverage
+
+# production
+/frontend/carpool/build
+
+# misc
+/frontend/carpool.DS_Store
+/frontend/carpool.env.local
+/frontend/carpool.env.development.local
+/frontend/carpool.env.test.local
+/frontend/carpool.env.production.local
+
+/frontend/carpool/npm-debug.log*
+/frontend/carpool/yarn-debug.log*
+/frontend/carpool/yarn-error.log*
