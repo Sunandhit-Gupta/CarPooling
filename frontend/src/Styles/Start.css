@@ -1,0 +1,26 @@
+
+.top_container{
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px 10px;
+}
+
+.top_left{
+
+}
+
+.top_right{
+    object-fit: cover;
+    border-radius: 30px;
+    height: 400px;
+    overflow: hidden; 
+}
+
+.top_right img{
+    border-radius: 50px;
+    position: relative;
+    height: 400px;
+    width: 400px;
+}
