@@ -8,14 +8,15 @@
 }
 
 .top_left{
-
+    display: flex;
+    flex-direction: column;
 }
 
 .top_right{
     object-fit: cover;
     border-radius: 30px;
     height: 400px;
-    overflow: hidden; 
+    overflow: hidden;
 }
 
 .top_right img{
@@ -23,4 +24,9 @@
     position: relative;
     height: 400px;
     width: 400px;
+}
+
+.dateTime{
+    background: black;
+    color: black;
 }
